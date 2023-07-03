@@ -25,7 +25,7 @@ setup(
     author       =  "miaobuao",
     url          =  URL,
     description  =  "MicroPython type hints",
-    version      =  "0.0.2",
+    version      =  "0.0.5",
     license      =  "MIT License",
     author_email =  "miaobuao@outlook.com",
     long_description     = long_description,
@@ -39,6 +39,7 @@ setup(
     entry_points={
         'console_scripts': [
             f'build-hints = {PROJ_NAME}:run',
+            f"remove-hints = {PROJ_NAME}:remove"
         ],
     },
     install_requires=[

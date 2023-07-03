@@ -18,7 +18,17 @@ def run():
         tpath = os.path.join(TGT_DIR, name)
         copyfile(fpath, tpath)
     print("done")
-    
+
+def remove():
+    if input("remove? [y/N]: ").strip() not in ['yes', 'Y', 'y']:
+        exit()
+    from tqdm import tqdm
+    for name in tqdm(os.listdir(DIR)):
+        if name.startswith("__") and name.endswith("__"):
+            continue
+        tpath = os.path.join(TGT_DIR, name)
+        os.remove(tpath)
+    print("done")
+
 if __name__ == '__main__':
-    # run()
     ...

@@ -1,0 +1,1 @@
+/usr/bin/env python "/home/meo/dev/proj/pyb/setup.py"  sdist bdist_wheel  

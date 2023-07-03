@@ -2948,6 +2948,11 @@ enable the pull-up resistor on the pin
         """
       Get or set the debugging state (``True`` or ``False`` for on or off).
       """
+    @staticmethod
+    def high() -> None: pass
+    @staticmethod
+    def low() -> None: pass
+    
     @overload
     @staticmethod
     def debug(state: bool, /) -> None:
