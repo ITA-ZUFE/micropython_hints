@@ -44,5 +44,6 @@ setup(
     },
     install_requires=[
         'tqdm',
+        'meo>=0.1.13'
     ],
 )
