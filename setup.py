@@ -25,7 +25,7 @@ setup(
     author       =  "miaobuao",
     url          =  URL,
     description  =  "MicroPython type hints",
-    version      =  "0.0.5",
+    version      =  "0.0.6",
     license      =  "MIT License",
     author_email =  "miaobuao@outlook.com",
     long_description     = long_description,
