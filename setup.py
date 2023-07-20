@@ -18,14 +18,14 @@ if os.path.isdir(path):
 with open(os.path.join(CUR_PATH, "README.md"), 'r+', encoding='utf8') as f:
     long_description = f.read()
 
-URL = f"https://github.com/miaobuao/{PROJ_NAME}"
+URL = f"https://github.com/ITA-ZUFE/{PROJ_NAME}"
 
 setup(
     name         = PROJ_NAME,
     author       =  "miaobuao",
     url          =  URL,
     description  =  "MicroPython type hints",
-    version      =  "0.0.6",
+    version      =  "0.0.7",
     license      =  "MIT License",
     author_email =  "miaobuao@outlook.com",
     long_description     = long_description,
